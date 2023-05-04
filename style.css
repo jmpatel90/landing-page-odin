@@ -61,14 +61,37 @@ header,footer {
     background: #1f2937;
 }
 
-.container {
+header {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-.container img,.container .hero-txt {
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 100px;
+    padding: 50px 0;
+}
+
+.hero-container img,.hero-container .hero-txt {
     max-width: 500px;
+}
+
+.hero-txt {
+    line-height: 1.2;
+}
+
+.hero-txt p {
+    margin: 10px 0;
 }
 
 h1 {
@@ -82,4 +105,121 @@ h1 {
     color: #f9faf8;
 }
 
+.hero-txt p,ul li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+}
+
+li a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+button {
+    background: #3882f6;
+    color: #fff;
+    border-radius: 10%;
+    padding: 10px 40px;
+}
+
 /* ======= Information Section ======= */
+
+main {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    padding: 50px 0;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    margin-bottom: 100px;
+}
+
+.item {
+    max-width: 200px;
+}
+
+.item img {
+    max-width: 200px;
+    border-radius: 10%;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1f2937;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote div {
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: start;
+}
+
+.quote div p {
+    text-align: start;
+}
+
+.quote div span {
+    align-self: end;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+}
+
+.action {
+    background: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    width: 50%;
+    padding: 50px 100px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: start;
+}
+
+.action button {
+    border: 1px solid #fff;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.action div p {
+    font-size: 18px;
+}
+
+/* ======= Footer ======= */
+
+footer {
+    color: #f9faf8;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
