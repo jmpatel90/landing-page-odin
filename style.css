@@ -71,6 +71,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 60px;
+    flex-wrap: wrap;
 }
 
 
@@ -80,6 +81,7 @@ nav {
     align-items: start;
     gap: 100px;
     padding: 50px 0;
+    flex-wrap: wrap;
 }
 
 .hero-container img,.hero-container .hero-txt {
@@ -145,6 +147,7 @@ h2 {
     justify-content: center;
     gap: 36px;
     margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .item {
@@ -199,6 +202,7 @@ h2 {
     border-radius: 10px;
     color: #fff;
     text-align: start;
+    flex-wrap: wrap;
 }
 
 .action button {
