@@ -49,6 +49,12 @@ table {
 	border-spacing: 0;
 }
 
+/* ======= Font Family ======= */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 /* ======= Header & Navbar ======= */
 
 header,footer {
@@ -66,7 +72,13 @@ header,footer {
 }
 
 h1 {
-    font: bold 48px "Poppins",sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
     color: #f9faf8;
 }
 
